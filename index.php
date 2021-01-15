@@ -13,9 +13,9 @@
     </head>
 
     <body>
-        
+
         <?php
-            $string = 'Test$423';
+            $string = 'Test@423';
             fbanitz\checkPassword($string);
         ?>
 

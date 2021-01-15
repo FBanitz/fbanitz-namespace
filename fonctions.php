@@ -34,6 +34,7 @@
     }
 
     function checkPassword($string){
+        
         $maj = checkmaj($string);
         $min = checkmin($string);
         $num = checknum($string);
