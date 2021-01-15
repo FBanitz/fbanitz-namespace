@@ -1,4 +1,4 @@
-# fbanitz-namespacz
+# fbanitz-namespace
 ## Une fonction PHP pour vérifier si un mot de passe est correct
 ### Sujet d'examen du 15/01/2021
 
