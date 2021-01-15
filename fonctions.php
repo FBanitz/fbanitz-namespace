@@ -1,5 +1,9 @@
 <?php
+
+    namespace fbanitz;
+
     /*
+        Sujet :
         - créer un namespace (première lettre du prénom + nom | ex.: dhurtrel)
         - créer une fonction checkPassword permettant de vérifier la composition d'un mot de passe :
             - 8 caractères
@@ -9,9 +13,6 @@
             - 1 chiffre
         - afficher un message 
     */
-    namespace fbanitz;
-    
-
 
     function checkmaj($string){
         return(bool) preg_match('/[A-Z]/', $string);
@@ -34,7 +35,7 @@
     }
 
     function checkPassword($string){
-        
+
         $maj = checkmaj($string);
         $min = checkmin($string);
         $num = checknum($string);
@@ -69,7 +70,4 @@
             }
         }
     }
-
-
-
 ?>
